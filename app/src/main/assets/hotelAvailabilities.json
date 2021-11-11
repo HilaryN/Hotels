@@ -1,0 +1,319 @@
+{
+    "total": 10,
+    "hotelAvailabilities": [{
+            "hotelCode": "LONSMI",
+            "hotelBrand": "PI",
+            "available": true,
+            "arrivalDateToday": true,
+            "distance": 0.13,
+            "unit": "mile",
+            "ratePlans": [{
+                    "order": 1,
+                    "code": "RT315",
+                    "description": "Pay now or on arrival, fully refundable with free cancellation up to 1pm on the day of arrival",
+                    "name": "Flex",
+                    "classification": "A",
+                    "rooms": [{
+                        "type": "Double Twin",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "191.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "191.00",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 3,
+                    "code": "SF315",
+                    "description": "Pay now, fully refundable with free cancellation up to 3 full days before arrival",
+                    "name": "Semi-Flex",
+                    "classification": "Q",
+                    "rooms": [{
+                        "type": "Double",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "145.30",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "145.30",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 5,
+                    "code": "UT315",
+                    "description": "Pay now, non-refundable. Amendable check in date at the same hotel up to 1pm on the day of arrival",
+                    "name": "Standard",
+                    "classification": "S",
+                    "rooms": [{
+                        "type": "Standard",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "132.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "132.00",
+                        "currency": "GBP"
+                    }
+                }
+            ],
+            "hotelInfo": {
+                "code": "LONSMI",
+                "name": "London Farringdon (Smithfield)",
+                "headline": "Just a 10-minute walk from Farringdon station, close to Smithfield Market and the Museum of London ",
+                "address": {
+                    "addressline1": "24-30 West Smithfield",
+                    "addressline2": "West Smithfield",
+                    "addressline3": "London",
+                    "country": "United Kingdom (the)",
+                    "postcode": "EC1A 9HB"
+                },
+                "map": {
+                    "latitude": 51.512922,
+                    "longitude": -0.105133
+                },
+                "images": [{
+                    "fileReference": "https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/L/LONSMI/LONSMI-07.jpg"
+                }],
+                "tripAdvisor": {
+                    "rateUpperRange": 5,
+                    "rating": 4.5,
+                    "linkUrl": "https://www.tripadvisor.com/Hotel_Review-g186338-d3411810-Reviews-Premier_Inn_London_Blackfriars_Fleet_Street_hotel-London_England.html?m=28680#REVIEWS",
+                    "hotelId": "LONSMI",
+                    "ratingImageUrl": "https://www.tripadvisor.co.uk/img/cdsi/img2/ratings/traveler/4.5-13694-4.png",
+                    "tripAdvisorId": "3411810",
+                    "sampleSize": 5663,
+                    "rateLowerRange": 1,
+                    "stepSize": 0.5
+                }
+            }
+        },
+        {
+            "hotelCode": "LONBLA",
+            "hotelBrand": "PI",
+            "available": true,
+            "arrivalDateToday": true,
+            "distance": 0.13,
+            "unit": "mile",
+            "ratePlans": [{
+                    "order": 1,
+                    "code": "RT315",
+                    "description": "Pay now or on arrival, fully refundable with free cancellation up to 1pm on the day of arrival",
+                    "name": "Flex",
+                    "classification": "A",
+                    "rooms": [{
+                        "type": "Double Twin",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "191.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "191.00",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 3,
+                    "code": "SF315",
+                    "description": "Pay now, fully refundable with free cancellation up to 3 full days before arrival",
+                    "name": "Semi-Flex",
+                    "classification": "Q",
+                    "rooms": [{
+                        "type": "Double",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "145.30",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "145.30",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 5,
+                    "code": "UT315",
+                    "description": "Pay now, non-refundable. Amendable check in date at the same hotel up to 1pm on the day of arrival",
+                    "name": "Standard",
+                    "classification": "S",
+                    "rooms": [{
+                        "type": "Standard",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "132.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "132.00",
+                        "currency": "GBP"
+                    }
+                }
+            ],
+            "hotelInfo": {
+                "code": "LONBLA",
+                "name": "London Blackfriars (Fleet Street)",
+                "headline": "A short walk from Blackfriars and City Thameslink stations, close to London's West End",
+                "address": {
+                    "addressline1": "1-2 Dorset Rise",
+                    "addressline2": "London",
+                    "addressline3": "",
+                    "country": "United Kingdom (the)",
+                    "postcode": "EC4Y 8EN"
+                },
+                "map": {
+                    "latitude": 51.512922,
+                    "longitude": -0.105133
+                },
+                "images": [{
+                    "fileReference": "https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/L/LONBLA/LONBLA 1.jpg"
+                }],
+                "tripAdvisor": {
+                    "rateUpperRange": 5,
+                    "rating": 4.5,
+                    "linkUrl": "https://www.tripadvisor.com/Hotel_Review-g186338-d3411810-Reviews-Premier_Inn_London_Blackfriars_Fleet_Street_hotel-London_England.html?m=28680#REVIEWS",
+                    "hotelId": "LONBLA",
+                    "ratingImageUrl": "https://www.tripadvisor.co.uk/img/cdsi/img2/ratings/traveler/4.5-13694-4.png",
+                    "tripAdvisorId": "3411810",
+                    "sampleSize": 5663,
+                    "rateLowerRange": 1,
+                    "stepSize": 0.5
+                }
+            }
+        },
+        {
+            "hotelCode": "LONWAT",
+            "hotelBrand": "PI",
+            "available": true,
+            "arrivalDateToday": true,
+            "distance": 0.13,
+            "unit": "mile",
+            "ratePlans": [{
+                    "order": 1,
+                    "code": "RT315",
+                    "description": "Pay now or on arrival, fully refundable with free cancellation up to 1pm on the day of arrival",
+                    "name": "Flex",
+                    "classification": "A",
+                    "rooms": [{
+                        "type": "Double Twin",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "191.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "191.00",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 3,
+                    "code": "SF315",
+                    "description": "Pay now, fully refundable with free cancellation up to 3 full days before arrival",
+                    "name": "Semi-Flex",
+                    "classification": "Q",
+                    "rooms": [{
+                        "type": "Double",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "145.30",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "145.30",
+                        "currency": "GBP"
+                    }
+                },
+                {
+                    "order": 5,
+                    "code": "UT315",
+                    "description": "Pay now, non-refundable. Amendable check in date at the same hotel up to 1pm on the day of arrival",
+                    "name": "Standard",
+                    "classification": "S",
+                    "rooms": [{
+                        "type": "Standard",
+                        "adults": 1,
+                        "children": 0,
+                        "nonWindow": null,
+                        "totalCost": {
+                            "amount": "132.00",
+                            "currency": "GBP"
+                        },
+                        "roomNumber": 1
+                    }],
+                    "totalCost": {
+                        "amount": "132.00",
+                        "currency": "GBP"
+                    }
+                }
+            ],
+            "hotelInfo": {
+                "code": "LONWAT",
+                "name": "London Waterloo (Westminster Bridge)",
+                "headline": "Close to the South Bank, the London Eye and Waterloo station",
+                "address": {
+                    "addressline1": "85 York Road",
+                    "addressline2": "Waterloo",
+                    "addressline3": "London",
+                    "country": "United Kingdom (the)",
+                    "postcode": "SE1 7NJ"
+                },
+                "map": {
+                    "latitude": 51.512922,
+                    "longitude": -0.105133
+                },
+                "images": [{
+                    "fileReference": "https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/L/LONWAT/LONWAT 1.jpg"
+                }],
+                "tripAdvisor": {
+                    "rateUpperRange": 5,
+                    "rating": 4.5,
+                    "linkUrl": "https://www.tripadvisor.com/Hotel_Review-g186338-d3411810-Reviews-Premier_Inn_London_Blackfriars_Fleet_Street_hotel-London_England.html?m=28680#REVIEWS",
+                    "hotelId": "LONWAT",
+                    "ratingImageUrl": "https://www.tripadvisor.co.uk/img/cdsi/img2/ratings/traveler/4.5-13694-4.png",
+                    "tripAdvisorId": "3411810",
+                    "sampleSize": 5663,
+                    "rateLowerRange": 1,
+                    "stepSize": 0.5
+                }
+            }
+        }
+    ]
+}
