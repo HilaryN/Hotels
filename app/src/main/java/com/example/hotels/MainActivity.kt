@@ -2,6 +2,9 @@ package com.example.hotels
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper
 
@@ -13,7 +16,14 @@ class MainActivity : AppCompatActivity() {
         // Ignore "total" and other keywords
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
         val hotelAvailabilities: HotelAvailabilities = mapper.readValue(LoadJson(), HotelAvailabilities::class.java)
-        //val test = hotelAvailabilities
+        val test = hotelAvailabilities
+
+        // Load data into Recycler View to display
+        val launchListView = findViewById<View>(R.id.hotel_list) as RecyclerView
+        val adapter = HotelAdapter(hotelAvailabilities.hotelAvailabilities)
+        launchListView.adapter = adapter
+        launchListView.layoutManager = LinearLayoutManager(applicationContext)
+
     }
 
     fun LoadJson(): String {
