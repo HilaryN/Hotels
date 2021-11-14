@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
 class HotelAdapter(private val listOfHotels: HotelAvailabilities?):
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -22,9 +23,9 @@ class HotelAdapter(private val listOfHotels: HotelAvailabilities?):
                     nameTextView.text = hotelInfo.name
                     descriptionTextView.text = hotelInfo.headline
                     // Image (could do some uri validation first)
-                    //val image = hotelInfo.images[0].fileReference
-                    //if (image != null)
-                    //Picasso.get().load(image).into(holder.hotelImage)
+                    val image = hotelInfo.images[0].fileReference
+                    if (image != null)
+                        Picasso.get().load(image).into(hotelImage)
                 }
             }
         }
@@ -64,7 +65,7 @@ class HotelAdapter(private val listOfHotels: HotelAvailabilities?):
             return
 
         // Load data into row of Recycler View
-        var completedRatePlanRows = listOfHotels.numRows(hotelNumber - 1)
+        val completedRatePlanRows = listOfHotels.numRows(hotelNumber - 1)
         when (rowNumber) {
             0, completedRatePlanRows -> {
                 (holder as HotelAdapter.ViewHolder).bind(hotelNumber); hotelNumber++; planNumber = 0
