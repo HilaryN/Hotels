@@ -16,13 +16,12 @@ class MainActivity : AppCompatActivity() {
         // Ignore "total" and other keywords
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
         val hotelAvailabilities: HotelAvailabilities = mapper.readValue(LoadJson(), HotelAvailabilities::class.java)
-        val test = hotelAvailabilities
 
         // Load data into Recycler View to display
-        val launchListView = findViewById<View>(R.id.hotel_list) as RecyclerView
-        val adapter = HotelAdapter(hotelAvailabilities.hotelAvailabilities)
-        launchListView.adapter = adapter
-        launchListView.layoutManager = LinearLayoutManager(applicationContext)
+        val hotelListView = findViewById<View>(R.id.hotel_list) as RecyclerView
+        val adapter = HotelAdapter(hotelAvailabilities)
+        hotelListView.adapter = adapter
+        hotelListView.layoutManager = LinearLayoutManager(applicationContext)
 
     }
 
