@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val mapper = ObjectMapper()
         // Ignore "total" and other keywords
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-        val hotelAvailabilities: HotelAvailabilities = mapper.readValue(LoadJson(), HotelAvailabilities::class.java)
+        val hotelAvailabilities: HotelAvailabilities = mapper.readValue(loadJson(), HotelAvailabilities::class.java)
 
         // Load data into Recycler View to display
         val hotelListView = findViewById<View>(R.id.hotel_list) as RecyclerView
@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun LoadJson(): String {
-        var fileName = "hotelAvailabilities.json"
+    private fun loadJson(): String {
+        val fileName = "hotelAvailabilities.json"
         // https://stackoverflow.com/questions/9544737/read-file-from-assets
         // Note that 'use' will close the input stream after executing block function
         return assets.open(fileName).bufferedReader().use { it.readText() }
